@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>eroom_web</display-name>
+  <welcome-file-list>
+    <welcome-file>main_page.jsp</welcome-file>
+  </welcome-file-list>
+  <resource-ref>
+    <res-ref-name>jdbc/mysql</res-ref-name>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+  
+  <servlet>
+  <servlet-name>EroomServlet</servlet-name> 
+  <servlet-class>kpu.web.club.controller.EroomServlet</servlet-class> 
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>EroomServlet</servlet-name> 
+  <url-pattern>/EroomServlet</url-pattern> 
+  </servlet-mapping>
+
+</web-app>

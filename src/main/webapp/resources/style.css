@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+
+
+body {
+    color: black;
+    font-family: '맑은 고딕', '돋움', '고딕';
+    background-color: white
+}
+#ci {
+	width: 100%;
+}
+.logo {
+  float: left;
+  width: 200px;
+  margin-left: 10px;
+}
+HR.clear { 
+   clear : both;
+   height: 12px;
+   border: 0;
+   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+#menu-bar {
+	display: flex;
+	align-items: center;
+	float: right;
+	height: 100px;
+	margin-right: 10px;
+}
+.menu-icon {
+  margin: 10px;
+}
+a.btn:link { font-family: "맑은 고딕 Bold", "맑은 고딕", "돋움"; color: black; text-decoration: none; font-weight: bold;}
+a.btn:visited { font-family: "맑은 고딕 Bold", "맑은 고딕", "돋움"; color: black; text-decoration: none; font-weight: bold;}
+a.btn:hover { font-family: "맑은 고딕 Bold", "맑은 고딕", "돋움"; color: #337ab7; text-decoration: none; font-weight: bold;}
+
+
+
+#main {
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	background-image: URL("main_image.jpg");
+	background-size : cover;
+	border-radius: 5px;
+	padding-top:220px;
+	padding-bottom:220px;
+}
+.main_header {
+    font-family: "맑은 고딕 Bold", "맑은 고딕", "돋움";
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.main_header_sub {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+
+.sub_header {
+    font-family: "맑은 고딕 Bold", "맑은 고딕", "돋움";
+    font-size: 36px;
+    color: #222;
+}
+.section {
+	background-color:#EEE;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.child_section{
+	display:inline-block;
+	text-align: left;
+}
+.border {
+	border-radius: 10px;
+	border-right: #CCC 1px solid;
+	border-left: #CCC 1px solid;
+	border-top: #CCC 1px solid;
+	border-bottom: #CCC 1px solid;
+}
+.form_input{
+	margin-top: 10px;
+	width: 100%;
+	height: 25px;
+}
+.form_btn {
+	width: 80px;
+	height: 40px;
+	font-size: 16px;
+	margin-top: 10px;
+	cursor:pointer;
+}
+.form_btn_type2 {
+	width: 300px;
+	height: 40px;
+	font-size: 16px;
+	margin-top: 10px;
+	background-color: #337ab7;
+	color: white;
+	cursor:pointer;
+}
+.form_btn_type3 {
+	width: 300px;
+	height: 40px;
+	font-size: 14px;
+	margin-top: 15px;
+	background-color: #222;
+	color: white;
+	cursor:pointer;
+}
+ul {
+    list-style: none;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+.text_width {
+	width: 100px;
+}
+a:link{ color:#337ab7; text-decoration: none; }
+a:visited{ color:#337ab7; text-decoration: none; }
+a:hover{ color: black; text-decoration: none; }
+
+
+
+#go_main{
+	margin-top:50px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 250px;
+    height: 310px;
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+td {
+	border: none;
+}
+.table_content_0 {
+	background-color: #EEE;
+	display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+	margin:10px;
+	border: black solid 1px;
+}
+.table_content_1 {
+	background-color: green;
+	display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+	margin:10px;
+	border: black solid 1px;
+}
+.seat_no{
+	width: 25px;
+	height: 20px;
+	background-color: #FFF;
+	border-radius: 5px;
+}
+#green_box{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: green;
+}
+#white_box{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #BBB;
+}
+.reserve_btn {
+	width: 160px;
+	height: 40px;
+	font-size: 16px;
+	margin-top: 10px;
+	background-color: #337ab7;
+	color: white;
+	cursor: pointer;
+}
+.reserve_btn:disabled {
+	width: 160px;
+	height: 40px;
+	font-size: 16px;
+	margin-top: 10px;
+	background-color: #BBB;
+	color: white;
+	cursor: default;
+}
+.notice_msg {
+	font-size: 12px;
+	color: red;
+	font-family: "맑은 고딕", "돋움";
+}
+
+
+
+.font {
+	font-size: 30px;
+	color: #337ab7;
+	font-family: "맑은 고딕 Bold", "맑은 고딕", "돋움";
+	font-weight: bold;
+}
+#red {
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}

@@ -1,5 +1,5 @@
 # Eroom_Web
-http://eroom.kro.kr
+<b>http://eroom.kro.kr</b>
 
 스마트 독서실 예약 웹 페이지<br>
 동아리실을 독서실으로 활용하여 교내 학생들의 조용한 실내 학습 공간 마련
